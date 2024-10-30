@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Biblioteca Municipal</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+				<div>
+					<form method="POST" action="php/login.php">
+					<button  type="submit" id="login"> <i id ="icone"class="fa fa-sign-in" aria-hidden="true" style="color:  #294C71" ></i>Logar como Utilizador</button>
+					
+					</form>
+				</div>
+	<body id ="tres_colunas"class ="home">
+		<div id = "cabecalho">
+			
+			<div id ="topo">
+				<div id ="logotipo">
+				<h1> Biblioteca <br>Municipal </h1>
+				
+				<img src="img/logomarca.png" align="center" /> 
+
+				
+				<!---->
+
+				</div>
+
+				<ul class="navegacao" >
+						<li><a href="index.html">Inicio </a></li>
+						<li><a href="html/sobre.html">Sobre a Empresa</a></li>
+						<li><a href="html/portifolio.html">Portifolio </a></li>
+						<li><a href="html/login.html">Biblioteca Virtual </a></li>
+						<li><a href="html/parceiros.html">Parceiros </a></li>
+						<!--<li><a href="php/pesquisar.php">Colaboradores </a></li> -->
+						<li><a href="html/contacto.html">Contactos </a></li>
+
+				</ul>
+					
+		</div>
+			
+			<!-- Inicio do conteudo-->
+				<div id="conteudo">
+						<!--inicio de Livros mais Lidos-->
+						<div id="primario">
+							<h2>Livros Mais Lidos</h2>
+							<div class="caixa">
+								<img src="img/sonhos.jpg" width="100%" height="100%" >
+								 <div align="justify"  id ="livro-detalhes">
+
+								 		<i> Autor: </i> Augusto Cury<br>
+								 		<i> Título: </i> Nunca Desista dos seus sonhos<br>
+								 		<i> Ano de Lançamento: </i> 2010<br>
+								 		<i> Local de Lançamento: </i> Rio de Janeiro<br>
+								 		<i> Género: </i>Ficção <br>   <i>Total de páginas: </i>545<br>
+								 		<br><br>
+								 	
+
+								</div>
+
+								<hr>
+							</div>
+
+							<div class="caixa">
+								<img src="img/vidas_PaulinaChiziane.jpg" width="100%" height="100%" >
+								 <div align="justify"  id ="livro-detalhes">
+
+								 		<i> Autor: </i> Paulina Chiziane<br>
+								 		<i> Título: </i> O Alegre Canto da Perdiz<br>
+								 		<i> Ano de Lançamento: </i> 2013<br>
+								 		<i> Local de Lançamento: </i> Maputo,Moçambique<br>
+								 		<i> Género: </i>Romance  <br>  <i>Total de páginas: </i>335<br>
+								 		<br>
+								 	
+
+								</div>
+
+								
+
+								
+							</div>
+							
+						</div>
+
+						<!--inicio de Noticias-->
+
+						<div id="secundario">
+							<h2>Noticias Recentes</h2>
+							<div class="caixa">
+								<img src="img/dialivro.jpg" width="100%" height="100%" >
+								<h3><i> CMB NA FEIRA DO LIVRO</i></h3>
+								<p align="justify">O Presidente do Conselho Municipal da Beira Albano Carige participou na tarde de hoje, 18 de Setembro na feira do livro da Beira, Com o tema Encontro Entre Literatura Direito e Religião, na livraria Funza.
+Importa referir que a feira Decorrerá nos dias 18 a 20 do Corrente mês  com várias actividades:
+-Exposiçao e venda de Livros 
+-Sessão de Autógrafos.,
+-Conversas e palestras.,
+-Sarau Cultural.</p>
+							</div>
+							<hr>
+							<div class="caixa">
+								<img src="img/plantio.jpg" width="100%" height="100%" >
+								<h3><i> CMB PARTICIPA NAS CERIMÓNIAS DO PLANTIO DE ÁRVORES</i></h3>
+								<p align="justify">Para Melhorar o Meio Ambiente o Conselho Municipal da Beira e Standard Bank, levaram a Cabo hoje, 11 de Setembro uma Campanha de Plantio de Àrvores ao longa da Marginal.
+Importa referir a Campanha enquadra-se nas Comemorações dos 130 anos do standard bank</p>
+							</div>
+						</div>
+						<!--inicio da lateral-->
+						<div id="lateral">
+							<h2>Menu de Navegação</h2>
+							<div class="caixa">
+								
+								<div class="caixa_conteudo">
+									<form method="POST" action="php/livros.php">
+								        <label for="criterio"><h3>Pesquisar Livro</h3></label><br>
+								        <select name="criterio" class="criterio" id="select">
+								            <option value="titulo" >Título</option>
+								            <option value="autor">Autor</option>
+								            <option value="genero">Gênero</option>
+								        </select><br>
+
+								        <input type="text" name="valor" placeholder=" Digite o nome do autor">
+
+								        <button type="submit" id="pesquisar"><i class="fa fa-search" > </i> Pesquisar</button>
+
+    								</form><br><br>
+
+    								<div>
+									<h3> Menu Principal</h3>
+										<div id="navegacao1">
+										<ul>
+											<li><a href="php/cadastro_livro.php">Cadastrar Livros </a></li><br>
+											<li><a href="php/emprestar_livro.php">Emprestar Livros</a></li><br>
+											<li><a href="php/devolver_livro.php">Devolver Livros</a></li><br>
+											<li><a href="php/cadastro_usuarios.php">Cadastro de Usuarios</a></li><br>
+											
+											
+
+										</ul>
+										</div>
+
+									</div>
+
+
+								</div>
+							</div>
+
+						</div>
+
+				</div>
+			
+
+			</div>
+			
+<!-- Inicio do rodape-->
+				<div id="rodape_container" style= "clear: both;">
+					<div id="rodape" align="center">
+					 &copy; Copyright 2011-2024  Biblioteca Municipal da Beira
+					</div>
+
+				</div>
+
+
+				<style type="text/css">
+					#select{
+					  width: 115%;
+					  padding: 12px;
+					  border: 1px solid #ccc;
+					  border-radius: 4px;
+					  height: 39px;
+					  background-color: #fff;
+					}
+					input[type=text]{
+					  width: 100%;
+					  padding: 12px;
+					  border: 1px solid #ccc;
+					  border-radius: 4px;
+					  resize: vertical;
+					  background-color: #fff;
+					  height: 15px;
+					}
+
+					#navegacao1 ul a {
+						font-size: 1.0em;
+						display:block;
+						line-height: 1.1em;
+						text-decoration: none;
+						color: #blue;
+						
+					}
+					 #navegacao1 ul a:hover{
+						background: none;
+						color: black;
+						background: url(img/divisor.png) no-repeat left center;
+
+					}
+					 #navegacao1 ul a:visited{
+						background: none;
+						color: #294C71;
+						background: url(img/divisor.png) no-repeat left center;
+
+					}	
+					#navegacao1 ul a:link,{
+						background: none;
+						color: #black;
+						background: url(img/divisor.png) no-repeat left center;
+
+					}				
+				</style>
+
+	</body>
+	
+</html>

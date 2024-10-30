@@ -1,0 +1,219 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family:"Timesnewroman";
+	background: #fff url(../img/fundo.png) repeat-x ;
+	
+
+}
+#cabecalho{
+	width: 950px;
+	margin: 0 auto;
+	
+	
+}
+#topo{
+	height: 150px;
+	background: url(..img/logotipo-municipio.png) no-repeat right top;
+	padding-top: 25px;
+
+	
+}
+#logotipo h1 {
+	width: 160px;
+	height: 30px;
+	color: #fff;
+}
+#login {
+	width: 160px;
+	height: 30px;
+	color: black;
+	margin: 0 auto ;
+	float: right;
+	padding-top: 15px;
+	padding-bottom: 25px;
+	background: #FFF;
+	margin-top: 10px;
+	margin-right: 25px;
+	border-radius: 10px;
+
+}
+#login :hover {
+
+	background: blue;
+}
+
+
+
+
+#logotipo img {
+	width: 100px;
+	height: 100px;
+	padding-left: 26px;	
+	padding-top: 12px;	
+	
+}
+
+ul{
+	margin: 0;
+	padding:0;
+	list-style: none;
+	
+}
+#topo ul{
+		margin-top: 0px;
+		background: #294C71;
+		float: left;
+		/*margin-left:90px; */
+		border: 5px solid white;
+		
+
+}
+#topo ul li{
+		float: left;
+
+}
+#topo ul a {
+	font-size: 1.0em;
+	padding:0.5em 2.5em;
+	display:block;
+	line-height: 2.1em;
+	text-decoration: none;
+	color: #fff;
+	background: url(../img/divisor.png) no-repeat left center;
+
+}
+
+#topo ul .fundo a {
+	background: none;
+}
+#topo ul a:hover{
+	background: none;
+	color: black;
+	background: url(../img/divisor.png) no-repeat left center;
+
+}
+#conteudo {
+	margin-top: 60px;
+	background: blue;
+	margin-left:20px;
+
+}
+#primario{
+	background: #fff;
+	width: 340px;
+	float: left;
+	margin: 0 0 20px 195px;
+}
+
+#secundario{
+	background: white;
+	width: 340px;
+	float: left;
+	margin: 0 0 20px 40px;
+}
+
+
+#lateral{
+	width: 190px;
+	float: left;
+	margin: 0 0 20px -950px;
+}
+
+#rodape_container {
+	background: #294C71;
+	padding: 20px;
+
+}
+#rodape {
+	width: 750px;
+	margin: 0 auto;
+	color:#fff;
+}
+.caixa {
+	margin: 10px 0;
+	padding: 5px 0 5px 0;
+	/*background: #f3f3f3 url(../img/fundo-caixa);*/
+	background: none;
+}
+h2 {
+	background:#294C71;
+	font-size: 1.1em;
+	color: #fff;
+	padding: 5px;
+}
+.caixa_conteudo{
+	margin-top: 5px;
+	background: #fff;
+	padding: 5px;
+
+}
+
+h3 {
+
+	font-size: 1.6em;
+	color:#294C71 ;
+
+
+}
+hr{
+	margin: 1px auto; color:#294C71 ;
+}
+
+#pesquisar {
+	background-color:#f1f1f1 ;
+	margin-top: 10px;
+	width: 100%;
+	color: black;
+	height: 40px;
+	border-radius: 10px ;
+	font-style: oblique ;
+
+}
+#pesquisar:hover{
+	background:#fff ;
+	color: #294C71;
+	border: solid;
+} 
+input[type=text] {
+  background-color:#f1f1f1;
+  padding: 5px 12px;
+  margin-top: 10px;
+  border-radius: 10px;
+  height: 30px;
+  border :none;
+  color: #294C71;
+  font-style: oblique ;
+}
+select {
+  width: 100%;
+  padding: 16px 20px;
+  border: 1px;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+  height: 25px;
+  color: #294C71;
+  font-style: oblique ;
+}
+
+option {
+	color: black;
+}
+
+i {
+	font-size: 15px;
+	font-family: monospace;
+	color: #294C71;
+}
+#livro-detalhes{
+
+	margin-top: 5px;
+	
+}
+hr {
+	border: 2px solid #294C71;
+}
+
+

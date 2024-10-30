@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="../css/estilosC.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+	<body id ="tres_colunas"class ="home">
+		<div id = "cabecalho">
+			
+			<div id ="logotipo">
+				<h1> Biblioteca <br>Municipal </h1>
+				
+				<img src="../img/logomarca.png" align="center" /> 
+
+				
+				<!---->
+				</div>
+			
+			<!-- Inicio do conteudo-->
+			<br><br><br><br>
+			<br><br>
+		
+			
+			
+					<div>
+						<main>
+							
+						
+						<header>
+					        <h1 align="center">Login para admistração</h1><br><br>
+					    </header>
+
+					     <form method="POST" action="../php/controla.php">
+					     	
+					        <label for="email">Email:</label>
+					        <input type="email" id="email" name="email" required placeholder="exemplo@gmail.com"><br><br>
+					        <label for="numero_cartao">Senha:</label>
+					        <input type="password" id="senha" name="senha" required placeholder="*********************"> <br><br>
+					        <div align="center">
+					        <input type="submit" value="Entrar"></input><br><br>
+					      	
+					        <label > Esqueceu senha?</label>
+
+					        <label id="cadastra"> Cadastrar se</label>
+
+					        </div>
+					       
+					    </form>
+
+					    </main>
+
+					</div>
+			
+
+
+			</div>
+			
+		<!-- Inicio do rodape-->
+				<div id="rodape_container" style= "clear: both;">
+					<div id="rodape" align="center">
+					 &copy; Copyright 2011-2024  Biblioteca Municpal da Beira
+					</div>
+
+				</div>
+
+
+
+	</body>
+</html>
+<style type="text/css">
+
+	main {
+    background-color: white;
+    width: 560px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 3px 3px 5px rgba(0.473, 0.473, 0.473, 0.473);
+    margin-bottom: 20px;
+}
+	
+input[type=email]  {
+  width: 77%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  background-color: #fff;
+  height: 10px;
+}
+input[type=password]  {
+  width: 78%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  background-color: #fff;
+  height: 10px;
+}
+input[type=submit] {
+  background-color: #294C71;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 200px;
+  align-content: center;
+}
+
+input[type=submit]:hover {
+  background-color: white;
+  color:#294C71;
+  border:  2px solid #294C71 ;
+}
+
+frame{
+	border: 1px solid black;
+}
+</style>
