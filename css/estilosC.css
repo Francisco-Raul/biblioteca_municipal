@@ -1,0 +1,269 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family:"Timesnewroman";
+	background: #fff url(../img/fundo.png) repeat-x ;
+
+}
+#cabecalho{
+	width: 950px;
+	margin: 0 auto;
+	
+}
+#topo{
+	height: 150px;
+	background: url(../img/logotipo-municipio.png) no-repeat right top;
+	padding-top: 25px;
+	
+}
+#logotipo h1 {
+	width: 160px;
+	height: 30px;
+	color: #fff;
+
+	
+	
+}
+#logotipo img {
+	width: 100px;
+	height: 100px;
+	padding-left: 26px;	
+	padding-top: 12px;	
+	
+}
+
+ul{
+	margin: 0;
+	padding:0;
+	list-style: none;
+	
+}
+#topo ul{
+		margin-top: 0px;
+		background: #294C71;
+		float: left;
+		/*margin-left:90px; */
+		border: 5px solid white;
+		
+
+}
+#topo ul li{
+		float: left;
+
+}
+#topo ul a {
+	font-size: 1.0em;
+	padding:0.5em 2.5em;
+	display:block;
+	line-height: 2.1em;
+	text-decoration: none;
+	color: #fff;
+	background: url(../img/divisor.png) no-repeat left center;
+
+}
+#topo ul .fundo a {
+	background: none;
+}
+#topo ul a:hover{
+	background: none;
+	color: black;
+	background: url(../img/divisor.png) no-repeat left center;
+
+}
+#conteudo {
+	margin-top: 60px;
+	background: none;
+	margin-left:0px;
+
+}
+#contacto{
+	background: #fff;
+	width: 915px;
+	
+	
+}
+
+
+#rodape_container {
+	background: #294C71;
+	padding: 20px;
+
+}
+#rodape {
+	width: 750px;
+	margin: 0 auto;
+	color:#fff;
+}
+.caixa {
+	margin: 10px 0;
+	padding: 5px 0 5px 0;
+	/*background: #f3f3f3 url(../img/fundo-caixa);*/
+	background: none;
+}
+h2 {
+	background:#294C71;
+	font-size: 1.1em;
+	color: #fff;
+	padding: 5px;
+}
+.caixa_conteudo{
+	margin-top: 5px;
+	background: #fff;
+	padding: 5px;
+	border: solid #294C71 0px;
+	margin: auto;
+
+}
+
+h3 {
+
+	font-size: 1.6em;
+	color:#294C71 ;
+
+
+}
+
+input[type=text] {
+  background-color:#f1f1f1;
+  padding: 5px 12px;
+  margin-top: 10px;
+  border-radius: 10px;
+  height: 30px;
+  border :none;
+  color: #294C71;
+  font-style: oblique ;
+  width: 70%;
+  margin: 10px 10px ;
+}
+
+
+
+hr{
+	margin: 1px auto; color:#294C71 ;
+}
+.criterio{
+
+	margin: 0 auto;
+	border-radius: 50px;
+	border: 50px;
+}
+ 
+
+
+#mensagem{
+  background-color:#f1f1f1;
+  padding: 5px 12px;
+  margin-top: 10px;
+  border-radius: 10px;
+  height: 100px;
+  border :none;
+  color: #294C71;
+  font-style: oblique ;
+  width: 75%;
+  margin: 10px 10px ;
+}
+
+i {
+	font-size: 15px;
+	font-family: monospace;
+	color: #294C71;
+}
+#livro-detalhes{
+
+	margin-top: 5px;
+	
+}
+hr {
+	border: 2px solid #294C71;
+}
+#enviar {
+float: left;
+background: #294C71;
+color: #fff;
+border: none;
+ color: white;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ border-radius: 10px;
+ margin-bottom: 20px;
+ margin-top: 20px;
+ width: 200px;
+ margin: 10px 10px ;
+
+}
+#enviar:hover {
+	background:#fff ;
+	color: #294C71;
+	border: solid 1px;
+	#icone.color:#294C71 ;
+}
+
+label{
+	font-size: 1.2em;
+	color: #294C71;
+	margin: 10px 10px ;
+	width: 20%;
+}
+#icone {
+	color: #fff; 
+}
+h1 {
+	color: #294C71;
+}
+.missao{
+
+	background: #fff;
+	width: 400px;
+	float: left;
+	margin: 20px 20px;
+}
+.visao{
+
+	background: #fff;
+	width: 400px;
+	float: right;
+	margin: 20px 20px;
+}
+.somos{
+		background: #fff;
+		width: 400px;
+		float: right;
+		margin:20px 20px;
+}
+.valores{
+	background: #fff;
+	width: 400px;
+	float: left;
+	margin:20px 20px;
+}
+table  {
+    display: table;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    text-indent: initial;
+    unicode-bidi: isolate;
+    border-spacing: 2px;
+    background: #D3D3D3;
+    border: solid #294C71 1px;
+    width: 100%;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+	background-color: #fff;
+}
+#caix{
+	width: 100%;
+	margin: o auto;
+}
+th, tr,td {
+border: solid #294C71 1px;
+padding: 1px 5px;
+
+}
+
